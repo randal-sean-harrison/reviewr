@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* Remix main styles */
+
+/* base font sizes for desktop and mobile */
+
+html {
+   margin: 0 !important;
+   padding: 0 !important;
+   width: 100%;
+   font-size: 16px;
+   touch-action: manipulation;
+}
+
+body {
+   font-family: 'Open Sans', "Segoe UI", "Helvetica Neue", sans-serif;
+   /* background-color: #FAFAFA; */
+   background-color: #f5f5f5;
+   font-size: 16px;
+}
+
+h1 {
+   font-size: 2.5rem !important;
+   font-weight: 300 !important;
+}
+
+h2 {
+   font-size: 2rem !important;
+   font-weight: 400 !important;
+   margin-bottom: .25rem !important;
+}
+
+h3 {
+   font-size: 1.75rem !important;
+   font-weight: 400 !important;
+}
+
+h4 {
+   font-size: 1.5rem !important;
+   font-weight: 400 !important;
+}
+
+h5 {
+   font-size: 1.25rem !important;
+   font-weight: 600 !important;
+}
+
+h6 {
+   font-size: 1rem !important;
+   font-weight: 600 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin-bottom: .5rem;
+   margin-top: 0;
+   /* color: #0C2340 !important; */
+   color: #002a5d !important;
+}
+
+p, ul, li, th, tr, td, dd, dl, a, input, textarea, button, select, option, pre, span {
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 1.5;
+}
+
+p {
+   margin: 0 0 1rem 0;
+}
+
+/* Turns off unerline on hover for the infomation icons */
+a[data-toggle="popover"] {
+   text-decoration: none !important;
+}
+
+.to-enlarge {
+   background: white;
+   padding: .4rem;
+   border-radius: 0 0 10px 10px;
+   display: inline-block;
+   margin-top: -2px;
+   border-right: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+   border-left: 1px solid #ddd;
+   margin-left: 25%;
+}
+
+.short-round {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #FFFFFF !important;
+}
+
+.push-down-1 {
+   margin-top: 1rem;
+}
+
+.push-down-2 {
+   margin-top: 2rem;
+}
+
+.push-down-3 {
+   margin-top: 3rem;
+}
+
+.push-down-4 {
+   margin-top: 4rem;
+}
+
+.grey {
+   color: gray !important;
+}
+
+.double-header {
+   border-bottom: 3px double #c99700;
+   border-top: none;
+}
+
+.nd-gold {
+   color: #C99700 !important;
+}
+
+#nd-header {
+   background-color: #002a5d !important;
+   min-height: 50px;
+}
+
+#nd-link, #provost-link, .garamond {
+   font-family: 'EB Garamond', serif;
+}
+
+#nd-link a, #provost-link a {
+   letter-spacing: .3rem;
+   color: white;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+#nd-link a:hover, #provost-link a:hover, #about-project:hover, #about-resources:hover {
+   color: lightgrey;
+}
+
+#nd-link, #provost-link {
+   padding-top: .75rem !important;
+}
+
+.checkbox {
+   padding-left: 1rem;
+}
+
+.checkbox input[type=checkbox] {
+   margin-left: -2rem !important;
+   border-radius: 50 !important;
+}
+
+.descriptor {
+   display:block;
+   color: gray;
+   font-size: 90%;
+}
+
+.fa-fw {
+   margin-right: .4rem;
+}
+
+.link-blue {
+   color: #337ab7 !important;
+}
+
+.link-blue:hover {
+   color: #2e6da4;
+}
+
+#erase-local-storage {
+   margin-left: 1.5rem;
+}
+
+hr {
+   border: .5px solid lightgrey;
+   margin-top: 1.5rem;
+}
+
+.alert-default {
+   background: ghostwhite !important;
+   border: 1px dashed lightgrey;
+}
+
+.pointer {
+   cursor: pointer;
+}
+
+/* Adds padding around the content inside each tab panel */
+.tab-pane {
+   padding: 1rem;
+   border-top: none;
+}
+
+li.active a {
+   font-weight: bold !important;
+}
+
+.tab-content {
+   background: white;
+   border: 1px solid #DDD;
+}
+
+.nav-tabs li a,
+.nav-tabs li a {
+   border-bottom: none !important;
+   margin-bottom: -2px;
+}
+
+
+/* Footer */
+#page-footer {
+   background: #002A5D;
+   padding: 2rem;
+   color: #474e5f;
+   margin-top: 5rem;
+}
+
+#page-footer p,
+#page-footer a {
+   color: white;
+}
+
+#page-footer div.col-sm-4:last-of-type p a {
+   margin-left: 1.5rem;
+}
+
+#page-footer a:hover {
+   color: #939fbe;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.modal-body {
+   padding: 2.5rem;
+}
