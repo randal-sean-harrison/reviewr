@@ -8,4 +8,4 @@ To populate your own names and emails in the Guide Author Dropdown, simply repla
 
 ### Replace the Checkboxed Criteria
 
-To replace the various criteria will take some coding work. It's not terribly difficult, an I'm happy to answer questions about how to get started on that.
+To replace the various criteria will take some coding work. It's not terribly difficult, though, and I'm happy to answer questions about how to get started on that.
