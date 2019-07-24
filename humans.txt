@@ -1,0 +1,20 @@
+/* Website Design */
+
+   Project: Reviewr
+   Web Design and Development
+
+	Release date: Summer, 2019
+
+      Randal Sean Harrison, Ph.D.
+      Website Developer
+   	Employed: Hesburgh Libraries, University of Notre Dame
+   	Contact: rharriso@nd.edu
+
+
+   /* Technologies, Credits  */
+
+      Languages: HTML5, CSS3, Javascript
+      Frameworks: jQuery, Bootstrap 3
+      Web Fonts: FontAwesome
+
+      IDE/Env: Atom.io
