@@ -1,3 +1,3 @@
-# Maestro
+# Reviewr — Libguide Review Tool
 
-An application to register and communicate changes to Libguides authors.
+Reviewr is an application to register and communicate changes to Libguides authors.
