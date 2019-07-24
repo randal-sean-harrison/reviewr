@@ -1,349 +1,345 @@
-{
-   "authors": [
-
-      {
-         "email": "lajamie@nd.edu",
-         "author": "Ajamie, Lauren"
-      },
-      {
-         "email": "ialford@nd.edu",
-         "author": "Alford, Ian"
-      },
-      {
-         "email": "archlib@nd.edu",
-         "author": "Architecture Library, The"
-      },
-      {
-         "email": "wbaer@nd.edu",
-         "author": "Baer, Willie"
-      },
-      {
-         "email": "cbaile11@nd.edu",
-         "author": "Bailey, Chris"
-      },
-      {
-         "email": "Paula.A.Bales.5@nd.edu",
-         "author": "Bales, Paula"
-      },
-      {
-         "email": "bauters.1@nd.edu",
-         "author": "Bauters, Therese"
-      },
-      {
-         "email": "tbergstr@nd.edu",
-         "author": "Bergstrom, Tracy"
-      },
-      {
-         "email": "rbohlman@nd.edu",
-         "author": "Bohlmann, Rachel"
-      },
-      {
-         "email": "boze.1@nd.edu",
-         "author": "Boze, Andy"
-      },
-      {
-         "email": "britton.7@nd.edu",
-         "author": "Britton, Sheila"
-      },
-      {
-         "email": "dbrower@nd.edu",
-         "author": "Brower, Don"
-      },
-      {
-         "email": "James.T.Cachey.3@nd.edu",
-         "author": "Cachey, James"
-      },
-      {
-         "email": "jgray6@nd.edu",
-         "author": "Career Center, The"
-      },
-      {
-         "email": "hcawley@nd.edu",
-         "author": "Cawley, Helen"
-      },
-      {
-         "email": "wcawley@nd.edu",
-         "author": "Cawley, Kevin"
-      },
-      {
-         "email": "clements.22@nd.edu",
-         "author": "Clements, Aedin"
-      },
-      {
-         "email": "jcolli14@nd.edu",
-         "author": "Collins, Jared"
-      },
-      {
-         "email": "hl-data-management-consulting-list@nd.edu",
-         "author": "Consulting Team, Data Management"
-      },
-      {
-         "email": "mdehmlow@nd.edu",
-         "author": "Dehmlow, Mark"
-      },
-      {
-         "email": "asklib@nd.edu",
-         "author": "Desk, The Ask Us"
-      },
-      {
-         "email": "cds@nd.edu",
-         "author": "Digital Scholarship, Center for"
-      },
-      {
-         "email": "ldube@nd.edu",
-         "author": "Dube, Liz"
-      },
-      {
-         "email": "kferraro@nd.edu",
-         "author": "Ferraro, Kim"
-      },
-      {
-         "email": "afritz2@nd.edu",
-         "author": "Fritz, Angela"
-      },
-      {
-         "email": "Margaret.L.Giles.1@nd.edu",
-         "author": "Giles, Maggie"
-      },
-      {
-         "email": "tgillasp@nd.edu",
-         "author": "Gillaspy, Tiffany"
-      },
-      {
-         "email": "jgondron@nd.edu",
-         "author": "Gondron, Justin"
-      },
-      {
-         "email": "aguimara@nd.edu",
-         "author": "Guimaraes, Nastia"
-      },
-      {
-         "email": "dgura@nd.edu",
-         "author": "Gura, David"
-      },
-      {
-         "email": "mharden@nd.edu",
-         "author": "Harden, Melissa"
-      },
-      {
-         "email": "rharriso@nd.edu",
-         "author": "Harrison, Randal Sean"
-      },
-      {
-         "email": "mhavert@nd.edu",
-         "author": "Havert, Mandy"
-      },
-      {
-         "email": "aheet@nd.edu",
-         "author": "Heet, Adam"
-      },
-      {
-         "email": "cdshelpdesk@nd.edu",
-         "author": "Help Desk, CDS"
-      },
-      {
-         "email": "hyu3@nd.edu",
-         "author": "Hockx-Yu, Helen"
-      },
-      {
-         "email": "ehosselk@nd.edu",
-         "author": "Hosselkus, Erika"
-      },
-      {
-         "email": "dhuyvaer@nd.edu",
-         "author": "Huyvaert, Debbie"
-      },
-      {
-         "email": "djohns27@nd.edu",
-         "author": "Johnson, Daniel"
-      },
-      {
-         "email": "rjohns14@nd.edu",
-         "author": "Johnson, Rick"
-      },
-      {
-         "email": "hjuhn@nd.edu",
-         "author": "Juhn, Hye-jin"
-      },
-      {
-         "email": "jkayongo@nd.edu",
-         "author": "Kayongo, Jessica"
-      },
-      {
-         "email": "tkenjock@nd.edu",
-         "author": "Kenjockety, Tara"
-      },
-      {
-         "email": "king.1@nd.edu",
-         "author": "King, Dwight"
-      },
-      {
-         "email": "akrieger@nd.edu",
-         "author": "Krieger, Alan"
-      },
-      {
-         "email": "rkusmer@nd.edu",
-         "author": "Kusmer, Robert"
-      },
-      {
-         "email": "ladwig.1@nd.edu",
-         "author": "Ladwig, Parker"
-      },
-      {
-         "email": "robin.j.lisek.2@nd.edu",
-         "author": "Lisek, Robin"
-      },
-      {
-         "email": "nlyandre@nd.edu",
-         "author": "Lyandres, Natasha"
-      },
-      {
-         "email": "amarti24@nd.edu",
-         "author": "Martinez-Montavon, Anna Michelle"
-      },
-      {
-         "email": "dmassa@nd.edu",
-         "author": "Massa, Denise"
-      },
-      {
-         "email": "jmaxwel3@nd.edu",
-         "author": "Maxwell, Jan"
-      },
-      {
-         "email": "Mary.C.McKeown.8@nd.edu",
-         "author": "McKeown, Mary"
-      },
-      {
-         "email": "jmcmanu1@nd.edu",
-         "author": "McManus, Jean"
-      },
-      {
-         "email": "nmunn@nd.edu",
-         "author": "Meyers, Natalie"
-      },
-      {
-         "email": "miller.115@nd.edu",
-         "author": "Miller, Thurston"
-      },
-      {
-         "email": "mmoore18@nd.edu",
-         "author": "Moore, Monica"
-      },
-      {
-         "email": "emorgan@nd.edu",
-         "author": "Morgan, Eric Lease"
-      },
-      {
-         "email": "lmorgan1@nd.edu",
-         "author": "Morgan, Leslie L."
-      },
-      {
-         "email": "tmorton@nd.edu",
-         "author": "Morton, Tracey"
-      },
-      {
-         "email": "mmuelle7@nd.edu",
-         "author": "Mueller, Michael"
-      },
-      {
-         "email": "tharrier@nd.edu",
-         "author": "Mullins, Trudie"
-      },
-      {
-         "email": "Joseph.K.Nugent.21@nd.edu",
-         "author": "Nugent, Joe"
-      },
-      {
-         "email": "toleary2@nd.edu",
-         "author": "O'Leary, Tara"
-      },
-      {
-         "email": "Alexander.Papson.1@nd.edu",
-         "author": "Papson, Alex"
-      },
-      {
-         "email": "jparker9@nd.edu",
-         "author": "Parker, Jennifer"
-      },
-      {
-         "email": "apetrovi@nd.edu",
-         "author": "Petrovich, Arielle"
-      },
-      {
-         "email": "bpietras@nd.edu",
-         "author": "Pietraszewski, Pete"
-      },
-      {
-         "email": "cpugh@nd.edu",
-         "author": "Pugh, Claire"
-      },
-      {
-         "email": "mrobiso2@nd.edu",
-         "author": "Robison, Mark"
-      },
-      {
-         "email": "jross@nd.edu",
-         "author": "Ross, Joe"
-      },
-      {
-         "email": "Sandra.J.Sarber.1@nd.edu",
-         "author": "Sarber, Sandra"
-      },
-      {
-         "email": "jschneid@nd.edu",
-         "author": "Schneider, Julia"
-      },
-      {
-         "email": "mshaw@nd.edu",
-         "author": "Shaw, Michele"
-      },
-      {
-         "email": "ljenny@nd.edu",
-         "author": "Sill, Laura"
-      },
-      {
-         "email": "rsimon1@nd.edu",
-         "author": "Simon, Robert"
-      },
-      {
-         "email": "msimons@nd.edu",
-         "author": "Simons, Marcy"
-      },
-      {
-         "email": "Matthew.Sisk@nd.edu",
-         "author": "Sisk, Matthew"
-      },
-      {
-         "email": "csmith@nd.edu",
-         "author": "Smith, Cheri"
-      },
-      {
-         "email": "stevenson.2@nd.edu",
-         "author": "Stevenson, Marsha"
-      },
-      {
-         "email": "jtanaka1@nd.edu",
-         "author": "Tanaka, Julie"
-      },
-      {
-         "email": "askbuslib@nd.edu",
-         "author": "Thomas Mahaffey, Jr. Business Librarians, The"
-      },
-      {
-         "email": "Miranda.R.Vannevel.7@nd.edu",
-         "author": "VanNevel, Miranda"
-      },
-      {
-         "email": "jvecchio@nd.edu",
-         "author": "Vecchio, Julie"
-      },
-      {
-         "email": "awetheri@nd.edu",
-         "author": "Wetherill, Andy"
-      },
-      {
-         "email": "dwolfe2@nd.edu",
-         "author": "Wolfe, Dan"
-      }
-   ]
-}
+[{
+      "email": "lajamie@nd.edu",
+      "author": "Ajamie, Lauren"
+   },
+   {
+      "email": "ialford@nd.edu",
+      "author": "Alford, Ian"
+   },
+   {
+      "email": "archlib@nd.edu",
+      "author": "Architecture Library, The"
+   },
+   {
+      "email": "wbaer@nd.edu",
+      "author": "Baer, Willie"
+   },
+   {
+      "email": "cbaile11@nd.edu",
+      "author": "Bailey, Chris"
+   },
+   {
+      "email": "Paula.A.Bales.5@nd.edu",
+      "author": "Bales, Paula"
+   },
+   {
+      "email": "bauters.1@nd.edu",
+      "author": "Bauters, Therese"
+   },
+   {
+      "email": "tbergstr@nd.edu",
+      "author": "Bergstrom, Tracy"
+   },
+   {
+      "email": "rbohlman@nd.edu",
+      "author": "Bohlmann, Rachel"
+   },
+   {
+      "email": "boze.1@nd.edu",
+      "author": "Boze, Andy"
+   },
+   {
+      "email": "britton.7@nd.edu",
+      "author": "Britton, Sheila"
+   },
+   {
+      "email": "dbrower@nd.edu",
+      "author": "Brower, Don"
+   },
+   {
+      "email": "James.T.Cachey.3@nd.edu",
+      "author": "Cachey, James"
+   },
+   {
+      "email": "jgray6@nd.edu",
+      "author": "Career Center, The"
+   },
+   {
+      "email": "hcawley@nd.edu",
+      "author": "Cawley, Helen"
+   },
+   {
+      "email": "wcawley@nd.edu",
+      "author": "Cawley, Kevin"
+   },
+   {
+      "email": "clements.22@nd.edu",
+      "author": "Clements, Aedin"
+   },
+   {
+      "email": "jcolli14@nd.edu",
+      "author": "Collins, Jared"
+   },
+   {
+      "email": "hl-data-management-consulting-list@nd.edu",
+      "author": "Consulting Team, Data Management"
+   },
+   {
+      "email": "mdehmlow@nd.edu",
+      "author": "Dehmlow, Mark"
+   },
+   {
+      "email": "asklib@nd.edu",
+      "author": "Desk, The Ask Us"
+   },
+   {
+      "email": "cds@nd.edu",
+      "author": "Digital Scholarship, Center for"
+   },
+   {
+      "email": "ldube@nd.edu",
+      "author": "Dube, Liz"
+   },
+   {
+      "email": "kferraro@nd.edu",
+      "author": "Ferraro, Kim"
+   },
+   {
+      "email": "afritz2@nd.edu",
+      "author": "Fritz, Angela"
+   },
+   {
+      "email": "Margaret.L.Giles.1@nd.edu",
+      "author": "Giles, Maggie"
+   },
+   {
+      "email": "tgillasp@nd.edu",
+      "author": "Gillaspy, Tiffany"
+   },
+   {
+      "email": "jgondron@nd.edu",
+      "author": "Gondron, Justin"
+   },
+   {
+      "email": "aguimara@nd.edu",
+      "author": "Guimaraes, Nastia"
+   },
+   {
+      "email": "dgura@nd.edu",
+      "author": "Gura, David"
+   },
+   {
+      "email": "mharden@nd.edu",
+      "author": "Harden, Melissa"
+   },
+   {
+      "email": "rharriso@nd.edu",
+      "author": "Harrison, Randal Sean"
+   },
+   {
+      "email": "mhavert@nd.edu",
+      "author": "Havert, Mandy"
+   },
+   {
+      "email": "aheet@nd.edu",
+      "author": "Heet, Adam"
+   },
+   {
+      "email": "cdshelpdesk@nd.edu",
+      "author": "Help Desk, CDS"
+   },
+   {
+      "email": "hyu3@nd.edu",
+      "author": "Hockx-Yu, Helen"
+   },
+   {
+      "email": "ehosselk@nd.edu",
+      "author": "Hosselkus, Erika"
+   },
+   {
+      "email": "dhuyvaer@nd.edu",
+      "author": "Huyvaert, Debbie"
+   },
+   {
+      "email": "djohns27@nd.edu",
+      "author": "Johnson, Daniel"
+   },
+   {
+      "email": "rjohns14@nd.edu",
+      "author": "Johnson, Rick"
+   },
+   {
+      "email": "hjuhn@nd.edu",
+      "author": "Juhn, Hye-jin"
+   },
+   {
+      "email": "jkayongo@nd.edu",
+      "author": "Kayongo, Jessica"
+   },
+   {
+      "email": "tkenjock@nd.edu",
+      "author": "Kenjockety, Tara"
+   },
+   {
+      "email": "king.1@nd.edu",
+      "author": "King, Dwight"
+   },
+   {
+      "email": "akrieger@nd.edu",
+      "author": "Krieger, Alan"
+   },
+   {
+      "email": "rkusmer@nd.edu",
+      "author": "Kusmer, Robert"
+   },
+   {
+      "email": "ladwig.1@nd.edu",
+      "author": "Ladwig, Parker"
+   },
+   {
+      "email": "robin.j.lisek.2@nd.edu",
+      "author": "Lisek, Robin"
+   },
+   {
+      "email": "nlyandre@nd.edu",
+      "author": "Lyandres, Natasha"
+   },
+   {
+      "email": "amarti24@nd.edu",
+      "author": "Martinez-Montavon, Anna Michelle"
+   },
+   {
+      "email": "dmassa@nd.edu",
+      "author": "Massa, Denise"
+   },
+   {
+      "email": "jmaxwel3@nd.edu",
+      "author": "Maxwell, Jan"
+   },
+   {
+      "email": "Mary.C.McKeown.8@nd.edu",
+      "author": "McKeown, Mary"
+   },
+   {
+      "email": "jmcmanu1@nd.edu",
+      "author": "McManus, Jean"
+   },
+   {
+      "email": "nmunn@nd.edu",
+      "author": "Meyers, Natalie"
+   },
+   {
+      "email": "miller.115@nd.edu",
+      "author": "Miller, Thurston"
+   },
+   {
+      "email": "mmoore18@nd.edu",
+      "author": "Moore, Monica"
+   },
+   {
+      "email": "emorgan@nd.edu",
+      "author": "Morgan, Eric Lease"
+   },
+   {
+      "email": "lmorgan1@nd.edu",
+      "author": "Morgan, Leslie L."
+   },
+   {
+      "email": "tmorton@nd.edu",
+      "author": "Morton, Tracey"
+   },
+   {
+      "email": "mmuelle7@nd.edu",
+      "author": "Mueller, Michael"
+   },
+   {
+      "email": "tharrier@nd.edu",
+      "author": "Mullins, Trudie"
+   },
+   {
+      "email": "Joseph.K.Nugent.21@nd.edu",
+      "author": "Nugent, Joe"
+   },
+   {
+      "email": "toleary2@nd.edu",
+      "author": "O'Leary, Tara"
+   },
+   {
+      "email": "Alexander.Papson.1@nd.edu",
+      "author": "Papson, Alex"
+   },
+   {
+      "email": "jparker9@nd.edu",
+      "author": "Parker, Jennifer"
+   },
+   {
+      "email": "apetrovi@nd.edu",
+      "author": "Petrovich, Arielle"
+   },
+   {
+      "email": "bpietras@nd.edu",
+      "author": "Pietraszewski, Pete"
+   },
+   {
+      "email": "cpugh@nd.edu",
+      "author": "Pugh, Claire"
+   },
+   {
+      "email": "mrobiso2@nd.edu",
+      "author": "Robison, Mark"
+   },
+   {
+      "email": "jross@nd.edu",
+      "author": "Ross, Joe"
+   },
+   {
+      "email": "Sandra.J.Sarber.1@nd.edu",
+      "author": "Sarber, Sandra"
+   },
+   {
+      "email": "jschneid@nd.edu",
+      "author": "Schneider, Julia"
+   },
+   {
+      "email": "mshaw@nd.edu",
+      "author": "Shaw, Michele"
+   },
+   {
+      "email": "ljenny@nd.edu",
+      "author": "Sill, Laura"
+   },
+   {
+      "email": "rsimon1@nd.edu",
+      "author": "Simon, Robert"
+   },
+   {
+      "email": "msimons@nd.edu",
+      "author": "Simons, Marcy"
+   },
+   {
+      "email": "Matthew.Sisk@nd.edu",
+      "author": "Sisk, Matthew"
+   },
+   {
+      "email": "csmith@nd.edu",
+      "author": "Smith, Cheri"
+   },
+   {
+      "email": "stevenson.2@nd.edu",
+      "author": "Stevenson, Marsha"
+   },
+   {
+      "email": "jtanaka1@nd.edu",
+      "author": "Tanaka, Julie"
+   },
+   {
+      "email": "askbuslib@nd.edu",
+      "author": "Thomas Mahaffey, Jr. Business Librarians, The"
+   },
+   {
+      "email": "Miranda.R.Vannevel.7@nd.edu",
+      "author": "VanNevel, Miranda"
+   },
+   {
+      "email": "jvecchio@nd.edu",
+      "author": "Vecchio, Julie"
+   },
+   {
+      "email": "awetheri@nd.edu",
+      "author": "Wetherill, Andy"
+   },
+   {
+      "email": "dwolfe2@nd.edu",
+      "author": "Wolfe, Dan"
+   }
+]

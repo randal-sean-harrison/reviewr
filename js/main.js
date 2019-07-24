@@ -110,7 +110,7 @@ $(document).ready(function() {
       }
 
       // Final Message
-      var emailMessage = "Hi" + authorFirstName[1] + "," + newline + "Below, please find the list of recent changes to your guide: " + "\"" + guideTitle + ".\" " + "The LibGuides Management Team (LMT) has made changes to this guide as part of our continuing review of guides in which we aim to ensure that all guides meet the minimum requirements for publication. Each change is described in detail below:" + newline + newline + guideTemplate + guideName + guideType + friendlyURLGuide + friendlyURLPages + associatedSubjects + fiveTags + profileAllPages + noBelowProfile + noBlankPages + comments + "As always, if you have any questions or concerns, or would like additional training on or assistance with your guides, email the LMT at lmt-list@nd.edu, or simply reply to this email.";
+      var emailMessage = "Hi" + authorFirstName[1] + "," + newline + "Below, please find the list of recent changes to your guide: " + "\"" + guideTitle + ".\" " + "The LibGuides Management Team (LMT) has made changes to this guide as part of our continuing review of guides in which we aim to ensure that all guides meet the minimum requirements for publication. Each change is described in detail below:" + newline + newline + guideTemplate + guideName + guideType + friendlyURLGuide + friendlyURLPages + associatedSubjects + fiveTags + profileAllPages + noBelowProfile + noBlankPages + comments + "As always, if you have any questions or concerns, or would like additional training on or assistance with your guides, email the LMT at lmt-list@nd.edu, or simply reply to this email." + newline + newline + "Sincerely," + newline + "LibGuides Management Team";
 
       var openEmail = "mailto:" + authorEmail + "?subject=Changes to your Library Guide&reply-to=lmt-list@nd.edu&cc=lmt-changes-list@nd.edu" + "&body=" + emailMessage;
 
@@ -130,22 +130,21 @@ $(document).ready(function() {
    });
 
 
-   // Append authors to the UL from the JSON file
-   function addAuthors() {
+   // Append authors to the UL from the JSON file ---------------------------
+   var dropdown = $("#author-dropdown");
 
-      $.getJSON("../json/authors.json", function(data) {
+   // dropdown.empty();
+   dropdown.append('<option id="select-something" value="" selected="selected" disabled="disabled"> -- Select --</option><option value="custom">Custom Author</option><option value="" disabled="disabled"> --------------------------</option>');
 
-         var ul = $("#author-dropdown");
-         for (var i = 0; i < data.length; i++) {
-            var o = data[i];
-            var li = document.createElement("option");
-            li.appendChild(document.createTextNode(o.title));
-            ul.appendChild(li);
-         }
+   var url = 'json/authors.json';
 
+   // Populate dropdown with list of authors and emails
+         // Shout out to Code by Amir for the code grab on the below -- https://www.codebyamir.com/
+   $.getJSON(url, function(data) {
+      $.each(data, function(key, entry) {
+         dropdown.append($('<option></option>').attr('value', entry.email).text(entry.author));
       });
-   }
-
+   });
 
 });
 // document.ready closes
