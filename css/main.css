@@ -66,6 +66,15 @@ p {
    margin: 0 0 1rem 0;
 }
 
+.lightgray {
+  color: gray;
+}
+
+.small-caps {
+  font-variant: small-caps;
+  font-weight: 600 !important;
+}
+
 /* Turns off unerline on hover for the infomation icons */
 a[data-toggle="popover"] {
    text-decoration: none !important;

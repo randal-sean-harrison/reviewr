@@ -88,7 +88,7 @@
             <h1 class="nd-gold"><i class="fa fa-lg fa-fw fa-check-circle-o"></i>Review<span style="color:peru;font-size: inherit">r</span></h1>
          </div>
          <div class="col-sm-12">
-            <p class="lead push-down-1">Use the following rubric to ensure guides continue to meet publication requirements ...</p>
+            <p class="lead push-down-1">Use the following rubric to ensure guides continue to meet publication requirements</p>
          </div>
       </div>
 
@@ -265,6 +265,13 @@
                         </div>
                      </div>
 
+                     <hr>
+
+                     <div class="form-group steps push-down-2">
+                        <p><strong class="text-uppercase">Comments</strong> | <small class="small grey">optional</small></p>
+                        <textarea id="comments" class="form-control" name="comment" rows="5" cols="80"></textarea>
+                     </div>
+
                   </form>
 
                </div>
@@ -290,23 +297,14 @@
 
             <div class="push-down-2" style="margin-bottom: 3rem;">
 
-               <button type="button" class="btn btn-success btn-lg" id="email-author"><i class="fa fa-fw fa-paper-plane"></i>Email Guide Author</button>
-               <button type="button" class="btn btn-danger btn-lg pull-right" id="clear-form"><i class="fa fa-fw fa-refresh"></i>Reset Form</button>
+               <button type="button" class="btn btn-primary btn-lg" id="email-author"><i class="fa fa-fw fa-paper-plane"></i>Email Guide Author</button>
+               <button type="button" class="btn btn-default btn-lg" id="clear-form"><i class="fa fa-fw fa-refresh"></i>Reset Form</button>
             </div>
 
          </div>
          <!-- .col-sm-7 -->
 
          <div class="col-sm-5">
-
-            <form>
-
-               <div class="form-group steps">
-                  <strong>Comments</strong>
-                  <textarea id="comments" class="form-control" name="comment" rows="18" cols="80"></textarea>
-               </div>
-
-            </form>
 
             <a data-toggle="modal" data-target="#example-modal" class="pointer"><img src="img/example.svg" class="img img-responsive img-thumbnail" alt=""></a>
             <p class="to-enlarge pointer" data-toggle="modal" data-target="#example-modal"><i class="fa fa-fw fa-search-plus"></i>Click image to enlarge</p>
@@ -320,14 +318,18 @@
       <div class="modal fade" tabindex="-1" role="dialog" id="example-modal">
          <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+
                <!-- <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times fa-2x fa-fw"></i></button>
                </div> -->
-               <div class="modal-content">
+               <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-2x fa-fw fa-times-circle-o"></i></span></button>
+             <h3 class="modal-title grey">Example Guide</h3>
+          </div>
                   <div class="modal-body">
                      <img src="img/example.svg" class="img img-responsive img-thumbnail" alt="">
                   </div>
-               </div><!-- /.modal-content -->
+
             </div><!-- /.modal-dialog -->
          </div><!-- /.modal -->
 
@@ -398,7 +400,10 @@
    <!-- .footer -->
 
 
-
+   <!-- Confirmation modal -->
+   <div id="dialog-confirm" title="Reset steps">
+      <p>This will reset the form. Are you sure?</p>
+   </div>
 
    <!-- Scripts - - - - - - - - - - - - - - - - - - - - - - - -->
 

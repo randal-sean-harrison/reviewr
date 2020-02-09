@@ -5,8 +5,8 @@
 
 	Release date: Summer, 2019
 
-      Randal Sean Harrison, Ph.D.
-      Website Developer
+    Randal Sean Harrison, Ph.D.
+    Website Developer
    	Employed: Hesburgh Libraries, University of Notre Dame
    	Contact: rharriso@nd.edu
 
@@ -15,6 +15,7 @@
 
       Languages: HTML5, CSS3, Javascript
       Frameworks: jQuery, Bootstrap 3
-      Web Fonts: FontAwesome
+      Libraries: Filesaver.js
+      Web Fonts: FontAwesome 4
 
       IDE/Env: Atom.io
