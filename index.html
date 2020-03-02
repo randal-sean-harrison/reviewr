@@ -37,7 +37,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,400i,600" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,400i,600" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
+
 
   <!-- jQuery UI css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
@@ -88,12 +90,12 @@
         <h1 class="nd-gold"><i class="fa fa-lg fa-fw fa-check-circle-o"></i>Reviewr</h1>
       </div>
       <div class="col-sm-12">
-        <p class="lead push-down-1">Use the following rubric to ensure guides continue to meet publication requirements.</p>
+        <p class="lead push-down-1 padding-left-5">This rubric ensures guides meet publication requirements.</p>
       </div>
     </div>
 
     <div class="row push-down-3">
-      <div class="col-sm-7">
+      <div class="col-sm-10 col-sm-offset-1">
 
         <form>
 
@@ -131,200 +133,221 @@
         <!-- tabs navigation -->
         <ul class="nav nav-tabs push-down-3" role="tablist">
           <li role="presentation" class=" active in">
-            <a href="#required " aria-controls="home" role="tab" data-toggle="tab">Required of All Guides ...</a>
+            <a href="#required " aria-controls="home" role="tab" data-toggle="tab">Required of All Guides</a>
           </li>
+
+          <!-- This is a hidden extra tab ----------->
           <li role="presentation" class="hidden">
             <a href="#recommended " aria-controls="home" role="tab" data-toggle="tab">Recommended</a>
           </li>
+          <!-- -------------------------------------->
+
         </ul>
 
         <!-- tabs content -->
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane fade active in" id="required">
 
-            <p class="push-down-2 alert alert-info"><i class="fa fa-fw fa-check" aria-hidden="true"></i> Tick any changes you made to the guide. Click <i class="fa fa-fw fa-info-circle"></i>to read the text it will produce.</p>
+            <p class="push-down-2 alert alert-info"><i class="fa fa-fw fa-toggle-on fa-lg" aria-hidden="true"></i> Tick any changes you made to the guide.</p>
             <hr>
 
-            <form>
+            <!-- Correct guide template applied ---------------------------------------------->
 
-
-
-
-
-              <!-- Guide Renamed Correctly ---------------------------------------------->
-              <div class="criterion">
-                <span for="friendly-url-pages"><strong class="text-uppercase">Correct guide template</strong> was applied
-                  </label><a id="alt-text-popover" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
-                    data-content="<h5>Correct template applied</h5><hr><p>We have selected the appropriate guide template for your guide. This will ensure that future changes to that template will propagate to your guide</p>">
-                    &nbsp; <i class="fa fa-fw fa-lg fa-info-circle" aria-hidden="true"></i></a>
-                  <h6 class='short-round center-block pull-right' style='font-size: 16px; height: 35.2px; width: 35.2px; padding: 6px; border-radius: 40px; background: #f0ad4e;'>1</h6>
-                  <div class="checkbox">
-                    <label class="switch">
-                      <input type="checkbox" id="guide-template">
-                      <span class="slider round"></span>
-                    </label>
-                  </div>
-              </div>
-              <!-- .criterion -->
-
-
-              <!-- Guide Renamed Correctly ---------------------------------------------->
-              <div class="criterion">
-                <span for="friendly-url-pages"> <strong class="text-uppercase">Guide Renamed</strong> correctly
-                  </label><a id="alt-text-popover" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
-                    data-content="<h5>Guide named correctly</h5><hr><p>We have edited your guide name in order to bring it into compliance with guide naming conventions. This will result in better findability as users browse for guides and search for your guide specifically.</p>">
-                    &nbsp; <i class="fa fa-fw fa-lg fa-info-circle" aria-hidden="true"></i></a>
-                  <h6 class='short-round center-block pull-right' style='font-size: 16px; height: 35.2px; width: 35.2px; padding: 6px; border-radius: 40px; background: #f0ad4e;'>2</h6>
-                  <div class="checkbox">
-                    <label class="switch">
-                      <input type="checkbox" id="guide-name">
-                      <span class="slider round"></span>
-                    </label>
-                  </div>
-              </div>
-              <!-- .criterion -->
-
-
-              <!-- Friendly PAGE URLs ---------------------------------------------->
-              <div class="criterion">
-                <span for="friendly-url-pages"><strong class="text-uppercase">Correct guide type</strong> was applied
-                  </label><a id="alt-text-popover" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
-                    data-content="<h5>Correct type applied</h5><hr><p>We have updated your guide type to reflect its correct type. This will ensure users can find it in the correct category on the Libguides home page.</p>">
-                    &nbsp; <i class="fa fa-fw fa-lg fa-info-circle" aria-hidden="true"></i></a>
-                  <h6 class='short-round center-block pull-right' style='font-size: 16px; height: 35.2px; width: 35.2px; padding: 6px; border-radius: 40px; background: #f0ad4e;'>3</h6>
-                  <div class="checkbox">
-                    <label class="switch">
-                      <input type="checkbox" id="guide-type">
-                      <span class="slider round"></span>
-                    </label>
-                  </div>
-              </div>
-              <!-- .criterion -->
-
-
-              <!-- Friendly URLs ---------------------------------------------->
-              <div class="criterion">
-                <span for="friendly-url-guide"><strong class="text-uppercase">Friendly Guide URL</strong> was set
-                  </label><a id="alt-text-popover" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
-                    data-content="<h5>Friendly guide URL</h5><hr><p>We have added or edited the friendly URL for your guide in order to bring it into compliance with guide-naming conventions. Friendly URLs on guides lead to better findability and reduce cognitive load on users.</p>">
-                    &nbsp; <i class="fa fa-fw fa-lg fa-info-circle" aria-hidden="true"></i></a>
-                  <h6 class='short-round center-block pull-right' style='font-size: 16px; height: 35.2px; width: 35.2px; padding: 6px; border-radius: 40px; background: #f0ad4e;'>4</h6>
-                  <div class="checkbox">
-                    <label class="switch">
-                      <input type="checkbox" id="friendly-url-guide">
-                      <span class="slider round"></span>
-                    </label>
-                  </div>
-              </div>
-              <!-- .criterion -->
-
-
-              <!-- Guide Associated with One Subject -------------------------------->
-              <div class="criterion">
-                <span for="friendly-url-pages">Guide was associated with <strong class="text-uppercase">~1 subject</strong>
-                  </label><a id="alt-text-popover" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
-                    data-content="<h5>Up to ~1 subject</h5><hr><p>We have associated your guide with approximately 1 general subject area. Associating your guide with a subject increases its findability.</p>">
-                    &nbsp; <i class="fa fa-fw fa-lg fa-info-circle" aria-hidden="true"></i></a>
-                  <h6 class='short-round center-block pull-right' style='font-size: 16px; height: 35.2px; width: 35.2px; padding: 6px; border-radius: 40px; background: #f0ad4e;'>5</h6>
-                  <div class="checkbox">
-                    <label class="switch">
-                      <input type="checkbox" id="associated-subjects">
-                      <span class="slider round"></span>
-                    </label>
-                  </div>
-              </div>
-              <!-- .criterion -->
-
-
-              <!-- Friendly URLs ---------------------------------------------->
-              <div class="criterion">
-                <span for="friendly-url-pages">Guide was associated with <strong class="text-uppercase">up to ~5 tags</strong>
-                  </label><a id="alt-text-popover" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
-                    data-content="<h5>Up to ~5 tags</h5><hr><p>We have ensured your guide is limited to approximately 5 tags. Associating your guide with a limited set of tags increases its findability when users search by tag.</p>">
-                    &nbsp; <i class="fa fa-fw fa-lg fa-info-circle" aria-hidden="true"></i></a>
-                  <h6 class='short-round center-block pull-right' style='font-size: 16px; height: 35.2px; width: 35.2px; padding: 6px; border-radius: 40px; background: #f0ad4e;'>6</h6>
-                  <div class="checkbox">
-                    <label class="switch">
-                      <input type="checkbox" id="five-tags">
-                      <span class="slider round"></span>
-                    </label>
-                  </div>
-              </div>
-              <!-- .criterion -->
-
-              <!-- Friendly PAGE URLs ---------------------------------------------->
-              <div class="criterion">
-                <span for="friendly-url-pages"><strong class="text-uppercase"> Friendly Page URL<strong class="text-lowercase">s</strong></strong> were set</span><a id="alt-text-popover" tabindex="3" data-html="true" data-trigger="focus"
-                  role="button" data-container="body" data-toggle="popover" data-placement="top"
-                  data-content="<h5>Friendly page URLs</h5><hr><p>We have added or edited the friendly URL for 1 or more of your guide's pages (1 or more pages) in order to bring it into compliance with page-naming conventions. Friendly URLs on individual pages lead to better findability and reduce cognitive load on users.</p>">
-                  &nbsp; <i class="fa fa-fw fa-lg fa-info-circle" aria-hidden="true"></i></a>
-                <h6 class='short-round center-block pull-right' style='font-size: 16px; height: 35.2px; width: 35.2px; padding: 6px; border-radius: 40px; background: #f0ad4e;'>7</h6>
+            <div class="row criterion">
+              <div class="col-sm-2">
                 <div class="checkbox">
                   <label class="switch">
-                    <input type="checkbox" id="friendly-url-pages">
+                    <input type="checkbox" id="guide-template">
                     <span class="slider round"></span>
                   </label>
                 </div>
               </div>
-              <!-- .criterion -->
+              <div class="col-sm-8">
+                <p><strong class="text-uppercase">Correct guide template</strong> applied<a id="alt-text-popover" data-html="true" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
+                    data-content="<h5>Correct template applied</h5><hr><p>We have selected the appropriate guide template for your guide. This will ensure that future changes to that template will propagate to your guide</p><p><a href='' target='_blank'><i class='fa fa-fw fa-external-link'></i> Handbook</a></p>">
+                    &nbsp; <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i></a></p>
+              </div>
+              <div class="col-sm-2 zones" data-zone-number="<img src='img/zones/img1.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide' data-zone-number="<img src='img/zones/img1.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide'>
+                <h6 class='short-round pointer center-block'>1</h6>
+              </div>
+            </div>
+            <!-- .criterion -->
 
 
-              <!-- Profile boxes added to each page -------------------------------->
-              <div class="criterion">
-                <span for="friendly-url-pages"><strong class="text-uppercase"> Profile Boxes</strong> were added to each page
-                  </label><a id="alt-text-popover" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
-                    data-content="<h5>Profile on all pages</h5><hr><p>We have added a profile box on 1 or more of your pages. A luminous point of contact consistently placed on each page helps users get needed assistance.</p>">
-                    &nbsp; <i class="fa fa-fw fa-lg fa-info-circle" aria-hidden="true"></i></a>
-                  <h6 class='short-round center-block pull-right' style='font-size: 16px; height: 35.2px; width: 35.2px; padding: 6px; border-radius: 40px; background: #f0ad4e;'>8</h6>
-                  <div class="checkbox">
-                    <label class="switch">
-                      <input type="checkbox" id="profile-all-pages">
-                      <span class="slider round"></span>
-                    </label>
+
+            <!-- Guide named Correctly ---------------------------------------------->
+            <div class="row criterion">
+              <div class="col-sm-2">
+                <div class="checkbox">
+                  <label class="switch">
+                    <input type="checkbox" id="guide-name">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-8"><p><strong class="text-uppercase">Guide Renamed</strong> correctly<a id="alt-text-popover" data-html="true" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body"
+                    data-toggle="popover" data-placement="top"
+                    data-content="<h5>Guide named correctly</h5><hr><p>We have edited your guide name in order to bring it into compliance with guide naming conventions. This will result in better findability as users browse for guides and search for your guide specifically.</p><p><a href='' target='_blank'><i class='fa fa-fw fa-external-link'></i> Handbook</a></p>">
+                    &nbsp; <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i></a></p>
                   </div>
-              </div>
-              <!-- .criterion -->
-
-              <!-- Profile boxes added to each page -------------------------------->
-              <div class="criterion">
-                <span for="friendly-url-pages"><strong class="text-uppercase"> Content below profile boxes</strong> was moved to right column
-                  </label><a id="alt-text-popover" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
-                    data-content="<h5>Nothing below profile</h5><hr><p>We have shifted content under any profile boxes to the right-hand content column on 1 or more pages. The left column is reserved for navigation and profile boxes only.</p>">&nbsp;
-                    <i class="fa fa-fw fa-lg fa-info-circle" aria-hidden="true"></i></a>
-                  <h6 class='short-round center-block pull-right' style='font-size: 16px; height: 35.2px; width: 35.2px; padding: 6px; border-radius: 40px; background: #f0ad4e;'>9</h6>
-                  <div class="checkbox">
-                    <label class="switch">
-                      <input type="checkbox" id="no-below-profile">
-                      <span class="slider round"></span>
-                    </label>
-                  </div>
-              </div>
-              <!-- .criterion -->
-
-
-
-
-              <!-- Blank Pages Redirected -------------------------------->
-              <div class="criterion">
-                <span for="friendly-url-pages"><strong class="text-uppercase">Blank pages</strong> were redirected appropriately
-                  </label><a id="alt-text-popover" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
-                    data-content="<h5>No blank pages</h5><hr><p>We have redirected 1 or more blank pages in your guide to another appropriate page in your guide. Blank pages confuse readers and weaken the library's ethos overall.</p>">
-                    &nbsp; <i class="fa fa-fw fa-lg fa-info-circle" aria-hidden="true"></i></a>
-                  <div class="checkbox">
-                    <label class="switch">
-                      <input type="checkbox" id="blank-pages">
-                      <span class="slider round"></span>
-                    </label>
-                  </div>
-              </div>
-              <!-- .criterion -->
-
-              <div class="form-group steps push-down-2">
-                <p><strong class="text-uppercase">Comments</strong> | <small class="small grey">optional</small></p>
-                <textarea id="comments" class="form-control" name="comment" rows="5" cols="80"></textarea>
+              <div class="col-sm-2 zones" data-zone-number="<img src='img/zones/img2.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide'>
+                <h6 class='short-round pointer center-block'>2</h6>
               </div>
 
-            </form>
+            </div>
+            <!-- .criterion -->
+
+
+            <!-- Correct Guide Type Applied  --------------------------------->
+            <div class="row criterion">
+
+              <div class="col-sm-2">
+                <div class="checkbox">
+                  <label class="switch">
+                    <input type="checkbox" id="guide-type">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-8"><p><strong class="text-uppercase">Correct guide type</strong> applied<a id="alt-text-popover" data-html="true" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body"
+                    data-toggle="popover" data-placement="top"
+                    data-content="<h5>Correct type applied</h5><hr><p>We have updated your guide type to reflect its correct type. This will ensure users can find it in the correct category on the Libguides home page.</p><p><a href='' target='_blank'><i class='fa fa-fw fa-external-link'></i> Handbook</a></p>">
+                    &nbsp; <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i></a></p></div>
+              <div class="col-sm-2 zones" data-zone-number="<img src='img/zones/img3.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide'>
+                <h6 class='short-round pointer center-block'>3</h6>
+              </div>
+            </div>
+            <!-- .criterion -->
+
+
+            <!-- Friendly Guide URL ---------------------------------------------->
+            <div class="row criterion">
+
+              <div class="col-sm-2">
+                <div class="checkbox">
+                  <label class="switch">
+                    <input type="checkbox" id="friendly-url-guide">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-8"><p><strong class="text-uppercase">Friendly Guide URL</strong> was set<a id="alt-text-popover" data-html="true" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
+                  data-content="<h5>Friendly guide URL</h5><hr><p>We have added or edited the friendly URL for your guide in order to bring it into compliance with guide-naming conventions. Friendly URLs on guides lead to better findability and reduce cognitive load on users.</p><p><a href='' target='_blank'><i class='fa fa-fw fa-external-link'></i> Handbook</a></p>">
+                  &nbsp; <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i></a></p></div>
+              <div class="col-sm-2 zones" data-zone-number="<img src='img/zones/img4.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide'>
+                <h6 class='short-round pointer center-block'>4</h6>
+              </div>
+            </div>
+            <!-- .criterion -->
+
+
+            <!-- Guide Associated with One Subject -------------------------------->
+            <div class="row criterion">
+
+            <div class="col-sm-2"><div class="checkbox">
+              <label class="switch">
+                <input type="checkbox" id="associated-subjects">
+                <span class="slider round"></span>
+              </label>
+            </div></div>
+            <div class="col-sm-8"><p>Guide associated with <strong class="text-uppercase">~1 subject</strong><a id="alt-text-popover" data-html="true" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
+                data-content="<h5>Up to ~1 subject</h5><hr><p>We have associated your guide with approximately 1 general subject area. Associating your guide with a subject increases its findability.</p><p><a href='' target='_blank'><i class='fa fa-fw fa-external-link'></i> Handbook</a></p>">
+                &nbsp; <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i></a></p></div>
+            <div class="col-sm-2 zones" data-zone-number="<img src='img/zones/img5.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide'><h6 class='short-round pointer center-block'>5</h6></div>
+            </div>
+            <!-- .criterion -->
+
+
+            <!-- Guide associated with up to 5 tags ---------------------------------------------->
+            <div class="row criterion">
+
+            <div class="col-sm-2"><div class="checkbox">
+              <label class="switch">
+                <input type="checkbox" id="five-tags">
+                <span class="slider round"></span>
+              </label>
+            </div></div>
+            <div class="col-sm-8"><p>Guide associated with <strong class="text-uppercase">up to ~5 tags</strong><a id="alt-text-popover" data-html="true" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
+                data-content="<h5>Up to ~5 tags</h5><hr><p>We have ensured your guide is limited to approximately 5 tags. Associating your guide with a limited set of tags increases its findability when users search by tag.</p><p><a href='' target='_blank'><i class='fa fa-fw fa-external-link'></i> Handbook</a></p>">
+                &nbsp; <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i></a></p></div>
+            <div class="col-sm-2 zones" data-zone-number="<img src='img/zones/img6.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide'><h6 class='short-round pointer center-block'>6</h6></div>
+            </div>
+            <!-- .criterion -->
+
+            <!-- Friendly PAGE URLs ---------------------------------------------->
+            <div class="row criterion">
+
+            <div class="col-sm-2"><div class="checkbox">
+              <label class="switch">
+                <input type="checkbox" id="friendly-url-pages">
+                <span class="slider round"></span>
+              </label>
+            </div></div>
+            <div class="col-sm-8"><p><strong class="text-uppercase"> Friendly Page URL<strong class="text-lowercase">s</strong></strong> set</span><a id="alt-text-popover" data-html="true" tabindex="3" data-html="true" data-trigger="focus" role="button"
+              data-container="body" data-toggle="popover" data-placement="top"
+              data-content="<h5>Friendly page URLs</h5><hr><p>We have added or edited the friendly URL for 1 or more of your guide's pages (1 or more pages) in order to bring it into compliance with page-naming conventions. Friendly URLs on individual pages lead to better findability and reduce cognitive load on users.</p><p><a href='' target='_blank'><i class='fa fa-fw fa-external-link'></i> Handbook</a></p>">
+              &nbsp; <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i></a><p></div>
+            <div class="col-sm-2 zones" data-zone-number="<img src='img/zones/img7.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide'><h6 class='short-round pointer center-block'>7</h6></div>
+            </div>
+            <!-- .criterion -->
+
+
+            <!-- Profile boxes added to each page -------------------------------->
+            <div class="row criterion">
+
+              <div class="col-sm-2"><div class="checkbox">
+                <label class="switch">
+                  <input type="checkbox" id="profile-all-pages">
+                  <span class="slider round"></span>
+                </label>
+              </div></div>
+              <div class="col-sm-8"><p><strong class="text-uppercase"> Profile Boxes</strong> added to each page<a id="alt-text-popover" data-html="true" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
+                  data-content="<h5>Profile on all pages</h5><hr><p>We have added a profile box on 1 or more of your pages. A luminous point of contact consistently placed on each page helps users get needed assistance.</p><p><a href='' target='_blank'><i class='fa fa-fw fa-external-link'></i> Handbook</a></p>">
+                  &nbsp; <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i></a></p></div>
+              <div class="col-sm-2 zones" data-zone-number="<img src='img/zones/img8.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide'><h6 class='short-round center-block pointer'>8</h6></div>
+            </div>
+            <!-- .criterion -->
+
+            <!-- No content added below profile box -------------------------------->
+            <div class="row criterion">
+
+            <div class="col-sm-2"><div class="checkbox">
+              <label class="switch">
+                <input type="checkbox" id="no-below-profile">
+                <span class="slider round"></span>
+              </label>
+            </div></div>
+            <div class="col-sm-8"><p>
+              <strong class="text-uppercase"> No Content below</strong> profile
+              <a id="alt-text-popover" data-html="true" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
+                data-content="<h5>Nothing below profile</h5><hr><p>We have shifted content under any profile boxes to the right-hand content column on 1 or more pages. The left column is reserved for navigation and profile boxes only.</p><p><a href='' target='_blank'><i class='fa fa-fw fa-external-link'></i> Handbook</a></p>">&nbsp;
+                <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i></a></p></div>
+            <div class="col-sm-2 zones" data-zone-number="<img src='img/zones/img9.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide'><h6 class='short-round pointer center-block'>9</h6></div>
+            </div>
+            <!-- .criterion -->
+
+
+            <!-- Blank Pages Redirected -------------------------------->
+            <div class="row criterion">
+
+            <div class="col-sm-2"><div class="checkbox">
+              <label class="switch">
+                <input type="checkbox" id="blank-pages">
+                <span class="slider round"></span>
+              </label>
+            </div></div>
+            <div class="col-sm-8"><p><strong class="text-uppercase">Blank pages</strong> redirected<a id="alt-text-popover" data-html="true" tabindex="3" data-html="true" data-trigger="focus" role="button" data-container="body" data-toggle="popover" data-placement="top"
+                data-content="<h5>No blank pages</h5><hr><p>We have redirected 1 or more blank pages in your guide to another appropriate page in your guide. Blank pages confuse readers and weaken the library's ethos overall.</p><p><a href='' target='_blank'><i class='fa fa-fw fa-external-link'></i> Handbook</a></p>">
+                &nbsp; <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i></a></p></div>
+            <div class="col-sm-2 zones" data-zone-number="<img src='img/zones/img1.svg' class='img img-responsive'>" data-toggle='modal' data-target='#modal-example-guide'></div>
+            </div>
+            <!-- .criterion -->
+
+            <div class="form-group steps push-down-2">
+              <p><strong class="text-uppercase">Comments</strong> | <small class="small grey">optional</small></p>
+              <textarea id="comments" class="form-control" name="comment" rows="5" cols="80"></textarea>
+            </div>
+
 
           </div>
           <!-- #required -->
@@ -349,19 +372,19 @@
 
         <div class="push-down-2" style="margin-bottom: 3rem;">
 
-          <button type="button" class="btn btn-primary btn-lg" id="email-author"><i class="fa fa-fw fa-paper-plane"></i>Email Guide Author</button>
-          <button type="button" class="btn btn-default btn-lg" id="clear-form"><i class="fa fa-fw fa-refresh"></i>Reset Form</button>
+          <button type="button" class="btn btn-primary btn-lg" id="email-author"><i class="fa fa-fw fa-paper-plane"></i>Email Author</button>
+          <button type="button" class="btn btn-default btn-lg" id="clear-form"><i class="fa fa-fw fa-refresh"></i>Reset</button>
         </div>
 
       </div>
       <!-- .col-sm-7 -->
 
-      <div class="col-sm-5">
+      <!-- <div class="col-sm-5">
 
           <a data-toggle="modal" data-target="#example-modal" class="pointer"><img src="img/example.svg" class="img img-responsive img-thumbnail" alt=""></a>
           <p class="push-down-1 text-center pointer link-blue" data-toggle="modal" data-target="#example-modal"><i class="fa fa-fw fa-search-plus"></i> <strong>Click image to enlarge</strong></p>
 
-      </div>
+      </div> -->
       <!-- .col-sm-5 -->
     </div>
     <!-- .row -->
@@ -471,6 +494,23 @@
 
   <!-- Local script -->
   <script src="js/main.js"></script>
+
+
+  <div class="modal fade" tabindex="-1" role="dialog" id="modal-example-guide">
+  	<div class="modal-dialog modal-lg" role="document">
+  		<div class="modal-content">
+  			<div class="modal-header">
+  				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  					<span aria-hidden="true"><i class="fa fa-times fa-fw fa-2x"></i></span>
+  				</button>
+  				<h4 class="modal-title">Example Guide</h4>
+  			</div>
+  			<div class="modal-body">
+  				<!-- write the image here dynamically -->
+  			</div>
+  		</div>
+  	</div>
+  </div>
 
 </body>
 
