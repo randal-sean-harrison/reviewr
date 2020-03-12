@@ -55,10 +55,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #002a5d !important;
 }
 
-p, ul, li, th, tr, td, dd, dl, a, input, textarea, button, select, option, pre, span {
+p, ul, li, th, tr, td, dd, dl, a, input, button, select, option, pre, span {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+textarea {
+  font-size: 1rem !important;
 }
 
 p {
